@@ -1,5 +1,5 @@
-const API_KEY = 'AK0BLAL5EWWN165HZRY4';
-const SECRET_KEY = 'igZjlMcuuX7fFiwEiUN2BrNtIpyOSwuK8kBTb3qo';
+const API_KEY = 'apikey';
+const SECRET_KEY = 'secretkey';
 
 var start = new Date(Date.now() - (7200 * 1000)).toISOString();
 
