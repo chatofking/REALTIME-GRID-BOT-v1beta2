@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ccxt": "^2.2.46"
+  }
+}
