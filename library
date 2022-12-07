@@ -1,3 +1,4 @@
 ccxt
 websocket-client
 websocket-server
+wscat
