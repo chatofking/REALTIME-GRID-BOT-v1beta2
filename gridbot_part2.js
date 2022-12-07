@@ -3,8 +3,8 @@
 const url = "wss://stream.data.alpaca.markets/v1beta2/crypto";
 const socket = new WebSocket(url);
 
-const API_KEY = 'AK0BLAL5EWWN165HZRY4';
-const SECRET_KEY = 'igZjlMcuuX7fFiwEiUN2BrNtIpyOSwuK8kBTb3qo';
+const API_KEY = 'apikey';
+const SECRET_KEY = 'secretkey';
 
 const auth = {"action": "auth", "key": API_KEY, "secret": SECRET_KEY};
 const subscribe = {"action":"subscribe", "trades":["ETHUSD"], "quotes":["ETHUSD"], "bars":["ETHUSD"]}
