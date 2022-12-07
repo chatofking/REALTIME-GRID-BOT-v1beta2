@@ -1,5 +1,5 @@
-const API_KEY = 'AK0BLAL5EWWN165HZRY4';
-const SECRET_KEY = 'igZjlMcuuX7fFiwEiUN2BrNtIpyOSwuK8kBTb3qo';
+const API_KEY = 'api';
+const SECRET_KEY = 'secretkey';
 
 const url = "wss://stream.data.alpaca.markets/v1beta1/crypto";
 const socket = new WebSocket(url);
